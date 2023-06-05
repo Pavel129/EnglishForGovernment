@@ -1,0 +1,62 @@
+name: aseforenglish
+description: A new Flutter application.
+
+version: 1.3.0
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: any
+  path_provider: any
+
+  cupertino_icons: ^0.1.2
+  flutter_spinkit: ^4.1.2+1
+  audioplayers: ^0.16.1
+  package_info: ^0.4.0+16
+  flutter_html: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - assets/
+  - assets/data/
+  - assets/data/source/
+  - assets/data/database/
+  - assets/images/background/
+  - assets/images/icons/
+  - assets/images/icons/cource/
+
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/roboto/Roboto-Regular.ttf
+        - asset: fonts/roboto/Roboto-Italic.ttf
+          style: italic
+        - asset: fonts/roboto/Roboto-Bold.ttf
+          weight: 700
+    - family: SFPro-Regular
+      fonts:
+        - asset: fonts/SFP/SFProDisplay-Regular.ttf
+        - asset: fonts/SFP/SFProDisplay-Light.ttf
+          style: italic
+        - asset: fonts/SFP/SFProDisplay-Bold.ttf
+          weight: 700
+    - family: RosatomR45
+      fonts:
+        - asset: fonts/rosatom/Rosatom-Regular45.ttf
+    - family: RosatomR56
+      fonts:
+        - asset: fonts/rosatom/Rosatom-Regular56.ttf
+    - family: RosatomR75
+      fonts:
+        - asset: fonts/rosatom/Rosatom-Regular75.ttf
